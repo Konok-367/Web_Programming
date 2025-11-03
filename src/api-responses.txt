@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "title": "Learn Node.js",
+    "completed": false,
+    "priority": "high",
+    "createdAt": "2025-11-03T10:47:23.668Z"
+}
+
+{
+    "error": "Task not found"
+}
+
+{
+    "error": "Invalid ID format"
+}
