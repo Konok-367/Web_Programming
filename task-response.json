@@ -1,0 +1,10 @@
+{"success":true,"data":[{"id":1,"title":"Sample Task 1","completed":false,"priority":"low","createdAt":"2025-11-17T16:54:48.363Z"},
+{"id":2,"title":"Sample Task 2","completed":true,"priority":"medium","createdAt":"2025-11-17T16:54:48.363Z"},
+{"id":3,"title":"Sample Task 3","completed":false,"priority":"high","createdAt":"2025-11-17T16:54:48.363Z"},
+{"id":4,"title":"Sample Task 4","completed":false,"priority":"low","createdAt":"2025-11-17T16:54:48.363Z"},
+{"id":5,"title":"Sample Task 5","completed":true,"priority":"medium","createdAt":"2025-11-17T16:54:48.363Z"}]}
+
+
+GET /tasks/999 Response: 404 Not Found - {"error": "Task not found"}
+GET /tasks/abc Response: 400 Bad Request - {"error": "Invalid ID format"}
+GET /tasks/-1 Response: 400 Bad Request - {"error": "Invalid ID format"}
